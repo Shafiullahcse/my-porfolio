@@ -1,0 +1,99 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 60px;
+}
+h2 {
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(226, 86, 43);
+}
+
+.orange-color {
+
+    color: orange;
+}
+
+.flexible-container {
+
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.peter {
+
+    width: 50%;
+    padding: 5%;
+    padding-right: 5px;
+}
+
+.peter img {
+
+    width: 100%;
+}
+
+.link-button {
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 400px;
+
+}
+
+.top-banner {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.experience-area {
+
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.experience {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#item {
+
+    border-left: 5px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+#item1 {
+
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, tomato);
+    border-image-slice: 1;
+}
+
+footer {
+
+    text-align: center;
+}
